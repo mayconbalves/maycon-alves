@@ -6,7 +6,8 @@
   "author": "mayconbalves <mayconmustaine@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint": "eslint src --max-warnings=0"
   },
   "dependencies": {
     "next": "^10.0.8",
