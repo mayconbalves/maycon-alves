@@ -1,14 +1,27 @@
 import React from 'react'
-import { NavbarStyled, NavTitle, NavList, NavListItem } from './styled'
+import Link from 'next/link'
+import { NavbarStyled, NavTitle, NavList, NavListItem, NavLink } from './styled'
 
 const Navbar = () => {
   return (
     <NavbarStyled>
       <NavTitle>Maycon Alves</NavTitle>
       <NavList>
-        <NavListItem>hello</NavListItem>
-        <NavListItem>hello2</NavListItem>
-        <NavListItem>hello3</NavListItem>
+        <NavListItem>
+          <Link href="/">
+            <NavLink>Minhas redes</NavLink>
+          </Link>
+        </NavListItem>
+        <NavListItem>
+          <Link href="/">
+            <NavLink>Laboratório</NavLink>
+          </Link>
+        </NavListItem>
+        <NavListItem>
+          <Link href="/">
+            <NavLink>Blog</NavLink>
+          </Link>
+        </NavListItem>
       </NavList>
     </NavbarStyled>
   )

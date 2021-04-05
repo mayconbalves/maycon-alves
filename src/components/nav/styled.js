@@ -13,6 +13,12 @@ export const NavTitle = styled.h1`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
+  font-family: 'Copperplate', serif;
+
+  &:hover {
+    color: #bb86fc;
+  }
 `
 
 export const NavList = styled.ul`
@@ -25,4 +31,14 @@ export const NavList = styled.ul`
 export const NavListItem = styled.li`
   list-style: none;
   padding: 0 10px;
+`
+
+export const NavLink = styled.a`
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+  &:hover {
+    color: #bb86fc;
+  }
 `
