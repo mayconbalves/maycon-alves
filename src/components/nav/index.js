@@ -9,7 +9,7 @@ const Navbar = () => {
       <NavList>
         <NavListItem>
           <Link href="/">
-            <NavLink>Minhas redes</NavLink>
+            <NavLink>Redes</NavLink>
           </Link>
         </NavListItem>
         <NavListItem>

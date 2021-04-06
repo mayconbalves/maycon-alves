@@ -19,6 +19,10 @@ export const NavTitle = styled.h1`
   &:hover {
     color: #bb86fc;
   }
+
+  @media (max-width: 420px) {
+    font-size: 1.8rem;
+  }
 `
 
 export const NavList = styled.ul`
@@ -31,6 +35,10 @@ export const NavList = styled.ul`
 export const NavListItem = styled.li`
   list-style: none;
   padding: 0 10px;
+
+  @media (max-width: 420px) {
+    padding: 0 5px;
+  }
 `
 
 export const NavLink = styled.a`
@@ -40,5 +48,9 @@ export const NavLink = styled.a`
 
   &:hover {
     color: #bb86fc;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 1.3rem;
   }
 `
