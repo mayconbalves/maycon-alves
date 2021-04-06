@@ -12,12 +12,12 @@ export const Title = styled.h1`
 export const DescriptionWrapper = styled.section`
   margin: 35px 0;
   padding: 10px 0;
-  font-size: 1.7rem;
 `
 
 export const Description = styled.p`
   color: #fff;
   margin: 10px 0;
+  font-size: 2rem;
 `
 
 export const StrongStyled = styled.strong`
@@ -28,6 +28,7 @@ export const StyledLink = styled.a`
   color: #03dac5;
   cursor: pointer;
   text-decoration: none;
+  font-weight: bolder;
 
   &:hover {
     text-decoration: underline;

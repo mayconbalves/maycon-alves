@@ -18,13 +18,13 @@ const home = () => {
           <Description>
             Meu nome é <StrongStyled>Maycon Alves</StrongStyled> sou
             desenvolvedor <StrongStyled>front-end</StrongStyled> desde{' '}
-            <StrongStyled>2016.</StrongStyled>Nesses anos aprendi muito sobre
+            <StrongStyled>2016</StrongStyled>. Nesses anos aprendi muito sobre
             desenvolvimento de software.
           </Description>
           <Description>
             Desde sempre atuo com <StrongStyled>HTML</StrongStyled>,
-            <StrongStyled>CSS</StrongStyled>, e{' '}
-            <StrongStyled>Javascript</StrongStyled>.Por todas as empresas que
+            <StrongStyled> CSS</StrongStyled>, e{' '}
+            <StrongStyled>Javascript</StrongStyled>. Por todas as empresas que
             passei passei sempre usei <StrongStyled>React</StrongStyled> com{' '}
             <StrongStyled>Redux</StrongStyled> e desde de 2018 comecei adotar o
             uso de <StrongStyled>styles-components</StrongStyled>.
@@ -44,7 +44,7 @@ const home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              instagram
+              Instagram
             </StyledLink>{' '}
             e no{' '}
             <StyledLink
@@ -52,9 +52,9 @@ const home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              youtube
+              Youtube
             </StyledLink>
-            .Ambos para trazer mais conteúdo sobre{' '}
+            . Ambos para trazer mais conteúdo sobre{' '}
             <StrongStyled>tecnologia</StrongStyled>.
           </Description>
         </DescriptionWrapper>
