@@ -15,6 +15,7 @@ export const NavTitle = styled.h1`
   align-items: center;
   font-size: 2rem;
   font-family: 'Copperplate', serif;
+  cursor: pointer;
 
   &:hover {
     color: #bb86fc;
