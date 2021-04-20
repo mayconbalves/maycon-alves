@@ -11,8 +11,24 @@ function App({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <meta
           name="description"
-          content="A simple project starter to work with React, NextJS and Styled Components"
+          content="Site pessoal e blog de um desenvolvedor frontend que curte muito escrever e compartilhar conhecimento"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="x-ua-compatible" content="IE=edge,chrome=1" />
+        <meta httpEquiv="content-language" content="pt-br" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="theme-color" content="#1f1b24" />
+        <meta name="msapplication-TileColor" content="#1f1b24" />
+        <meta name="referrer" content="no-referrer-when-downgrade" />
+        <meta name="google" content="notranslate" />
+        <meta name="robots" content="nofollow" />
+        <meta name="author" content="Maycon B Alves" />
+        <meta name="creator" content="Maycon B Alves" />
+        <meta property="og:locale" content="pt-br" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Maycon B Alves" />
+        <meta property="og:site_name" content="Maycon B Alves" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
