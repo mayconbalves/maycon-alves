@@ -10,8 +10,8 @@ const Navbar = () => {
       <NavTitle onClick={() => router.push('/')}>Maycon Alves</NavTitle>
       <NavList>
         <NavListItem>
-          <Link href="/">
-            <NavLink>Redes</NavLink>
+          <Link href="/about">
+            <NavLink>Me encontre</NavLink>
           </Link>
         </NavListItem>
         <NavListItem>

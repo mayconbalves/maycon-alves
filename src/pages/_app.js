@@ -27,8 +27,8 @@ function App({ Component, pageProps }) {
         <meta name="creator" content="Maycon B Alves" />
         <meta property="og:locale" content="pt-br" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Maycon B Alves" />
-        <meta property="og:site_name" content="Maycon B Alves" />
+        <meta property="og:title" content="Maycon Alves" />
+        <meta property="og:site_name" content="Maycon Alves" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
