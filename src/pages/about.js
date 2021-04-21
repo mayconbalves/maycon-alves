@@ -1,9 +1,9 @@
 import Content from '../components/content'
+import Card from '../components/card'
 import {
   Container,
   Title,
-  MediaSocialSection,
-  Card
+  MediaSocialSection
 } from '../styles/pages/about-styled'
 
 const About = () => {
@@ -13,13 +13,7 @@ const About = () => {
         <Title>Me econtre em qualquer um desses locais !!!</Title>
 
         <MediaSocialSection>
-          <Card>Linkedin</Card>
-          <Card>Medium</Card>
-          <Card>Github</Card>
-          <Card>DevTo</Card>
-          <Card>Instagram</Card>
-          <Card>Facebook</Card>
-          <Card>Youtube</Card>
+          <Card title="Linkedin" />
         </MediaSocialSection>
       </Container>
     </Content>
