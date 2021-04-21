@@ -13,7 +13,11 @@ const About = () => {
         <Title>Me econtre em qualquer um desses locais !!!</Title>
 
         <MediaSocialSection>
-          <Card title="Linkedin" />
+          <Card
+            title="Linkedin"
+            href="https://www.linkedin.com/in/mayconbalves/"
+            hoverColor="#0c66c2"
+          />
         </MediaSocialSection>
       </Container>
     </Content>
