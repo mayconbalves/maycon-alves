@@ -19,7 +19,7 @@ export const Container = styled.div`
   cursor: pointer;
 
   &:hover {
-    background-color: #0c66c2;
+    background-color: ${(props) => props.hoverColor};
     box-shadow: 0.1rem 0.1rem 5rem #0c66c2;
     transform: translateY(-10px);
     transition: 0.4s ease-out;

@@ -2,14 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Container, CardTitle, LinkContainer } from './styled'
 
-const Card = ({ title }) => {
+const Card = ({ title, href, hoverColor }) => {
   return (
-    <LinkContainer
-      href="https://www.linkedin.com/in/mayconbalves/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <Container>
+    <LinkContainer href={href} target="_blank" rel="noopener noreferrer">
+      <Container hoverColor={hoverColor}>
         <CardTitle>{title}</CardTitle>
       </Container>
     </LinkContainer>
@@ -17,6 +13,8 @@ const Card = ({ title }) => {
 }
 
 Card.propTypes = {
+  href: PropTypes.string.isRequired,
+  hoverColor: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired
 }
 
