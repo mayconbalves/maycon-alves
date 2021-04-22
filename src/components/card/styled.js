@@ -15,7 +15,6 @@ export const Container = styled.div`
   transition: 0.4s ease-out;
   position: relative;
   border-image-slice: 1;
-  border-width: 5px;
   cursor: pointer;
 
   &:hover {
@@ -23,6 +22,10 @@ export const Container = styled.div`
     box-shadow: 0.1rem 0.1rem 5rem #0c66c2;
     transform: translateY(-10px);
     transition: 0.4s ease-out;
+  }
+
+  &:hover h1 {
+    color: ${(props) => (props.color ? props.color : '#fff')};
   }
 
   &:before {
