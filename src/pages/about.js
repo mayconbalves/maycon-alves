@@ -43,6 +43,12 @@ const About = () => {
             href="https://www.facebook.com/mayconmustaine/"
             hoverColor="#4460b1"
           />
+
+          <Card
+            title="Instagram"
+            href="https://www.instagram.com/mayconbalves/"
+            hoverColor="#da1896"
+          />
         </MediaSocialSection>
       </Container>
     </Content>
