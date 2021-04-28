@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  margin: 60px auto 0;
+  margin: 100px auto 0;
   width: 65%;
 
   @media (max-width: 640px) {
@@ -10,6 +10,7 @@ export const Container = styled.div`
 `
 export const Title = styled.h1`
   color: #fff;
+  margin-bottom: 60px;
 
   @media (max-width: 520px) {
     font-size: 1.3rem;
