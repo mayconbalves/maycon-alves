@@ -28,8 +28,12 @@ export const Container = styled.div`
     color: ${(props) => (props.color ? props.color : '#fff')};
   }
 
-  &:before {
-    border-radius: inherit;
+  @media (max-width: 640px) {
+    width: 80%;
+  }
+
+  @media (max-width: 430px) {
+    margin: 0 auto;
   }
 `
 
