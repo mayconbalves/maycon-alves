@@ -13,11 +13,12 @@ const home = () => {
   return (
     <Content>
       <Container>
-        <Title>Olá, seja bem-vindo!</Title>
+        <Title>
+          Olá, seja bem-vindo! Sou <StrongStyled>Maycon Alves</StrongStyled>
+        </Title>
         <DescriptionWrapper>
           <Description>
-            Meu nome é <StrongStyled>Maycon Alves</StrongStyled> sou
-            desenvolvedor <StrongStyled>front-end</StrongStyled> desde{' '}
+            Sou desenvolvedor <StrongStyled>front-end</StrongStyled> desde{' '}
             <StrongStyled>2016</StrongStyled>. Nesses anos aprendi muito sobre
             desenvolvimento de software.
           </Description>
