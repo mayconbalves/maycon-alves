@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import { DefaultSeo  } from 'next-seo'
 import GlobalStyles from '../styles/global'
 
 function App({ Component, pageProps }) {
@@ -25,10 +25,18 @@ function App({ Component, pageProps }) {
         <meta name="robots" content="nofollow" />
         <meta name="author" content="Maycon B Alves" />
         <meta name="creator" content="Maycon B Alves" />
-        <meta property="og:locale" content="pt-br" />
+        <meta property="og:locale" content="pt-BR" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Maycon Alves" />
         <meta property="og:site_name" content="Maycon Alves" />
+        <DefaultSeo
+          openGraph={{
+            type: 'website',
+            locale: 'pt_BR',
+            url: 'https://www.mayconbalves.com.br',
+            site_name: 'Maycon Alves'
+          }}
+        />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
