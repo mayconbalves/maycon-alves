@@ -29,6 +29,10 @@ function App({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Maycon Alves" />
         <meta property="og:site_name" content="Maycon Alves" />
+        <meta
+          name="google-site-verification"
+          content="MwxDA61c262skoWmSLcgotXrjzB2MZgheKU2pXS0OoQ"
+        />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
