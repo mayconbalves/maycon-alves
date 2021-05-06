@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { DefaultSeo  } from 'next-seo'
 import GlobalStyles from '../styles/global'
 
 function App({ Component, pageProps }) {
@@ -9,6 +8,7 @@ function App({ Component, pageProps }) {
         <title>Maycon Alves</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta
           name="description"
           content="Site pessoal e blog de um desenvolvedor frontend que curte muito escrever e compartilhar conhecimento"
@@ -22,21 +22,13 @@ function App({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#1f1b24" />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="google" content="notranslate" />
-        <meta name="robots" content="nofollow" />
-        <meta name="author" content="Maycon B Alves" />
-        <meta name="creator" content="Maycon B Alves" />
+        <meta name="robots" content="noindex" />
+        <meta name="author" content="Maycon Alves" />
+        <meta name="creator" content="Maycon Alves" />
         <meta property="og:locale" content="pt-BR" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Maycon Alves" />
         <meta property="og:site_name" content="Maycon Alves" />
-        <DefaultSeo
-          openGraph={{
-            type: 'website',
-            locale: 'pt_BR',
-            url: 'https://www.mayconbalves.com.br',
-            site_name: 'Maycon Alves'
-          }}
-        />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />

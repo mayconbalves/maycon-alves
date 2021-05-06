@@ -1,5 +1,6 @@
 import React from 'react'
 import Content from '../components/content'
+import SEO from '../components/seo'
 import {
   Title,
   Container,
@@ -12,6 +13,7 @@ import {
 const home = () => {
   return (
     <Content>
+      <SEO title="Home" />
       <Container>
         <Title>
           Olá, seja bem-vindo! Sou <StrongStyled>Maycon Alves</StrongStyled>
