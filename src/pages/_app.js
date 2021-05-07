@@ -22,7 +22,7 @@ function App({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#1f1b24" />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="google" content="notranslate" />
-        <meta name="robots" content="noindex" />
+        <meta name="robots" content="index" />
         <meta name="author" content="Maycon Alves" />
         <meta name="creator" content="Maycon Alves" />
         <meta property="og:locale" content="pt-BR" />
