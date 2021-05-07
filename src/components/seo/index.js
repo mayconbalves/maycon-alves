@@ -3,20 +3,18 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 
 function SEO({ description, lang, meta, title, image }) {
-  const metaDescription = description
   const ogImage = image
-
   return (
     <Helmet
       htmlAttributes={{
         lang
       }}
       title={title}
-      titleTemplate={`%s | ${title}`}
+      titleTemplate={`%s | ${description}`}
       meta={[
         {
           name: `description`,
-          content: metaDescription
+          content: description
         },
         {
           property: `og:image`,
@@ -24,11 +22,11 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `og:title`,
-          content: `${title}`
+          content: `${title} | ${description}`
         },
         {
           property: `og:description`,
-          content: metaDescription
+          content: description
         },
         {
           property: `og:type`,
@@ -44,11 +42,11 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           name: `twitter:title`,
-          content: `${title}`
+          content: `${title} | ${description}`
         },
         {
           name: `twitter:description`,
-          content: metaDescription
+          content: description
         }
       ].concat(meta)}
     />

@@ -13,7 +13,7 @@ import {
 const home = () => {
   return (
     <Content>
-      <SEO title="Home" />
+      <SEO title="Home" description="Maycon Alves desenvolvedor frontend" />
       <Container>
         <Title>
           Olá, seja bem-vindo! Sou <StrongStyled>Maycon Alves</StrongStyled>
