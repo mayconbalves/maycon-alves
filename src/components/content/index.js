@@ -6,7 +6,9 @@ import { Container } from './styled'
 const Content = ({ children }) => {
   return (
     <Container>
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       {children}
     </Container>
   )
