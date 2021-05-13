@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Navbar from '../nav'
-import Footer from '../footer'
+import Navbar from 'components/nav'
+import Footer from 'components/footer'
 import { Container } from './styled'
 
 const Content = ({ children }) => {
