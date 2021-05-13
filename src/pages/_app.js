@@ -5,6 +5,11 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <script
+          data-ad-client="ca-pub-4370754805788508"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
         <title>Maycon Alves</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
