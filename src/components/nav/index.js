@@ -11,7 +11,7 @@ const Navbar = () => {
       <NavList>
         <NavListItem>
           <Link href="/about">
-            <NavLink>Me encontre</NavLink>
+            <NavLink>Sobre mim</NavLink>
           </Link>
         </NavListItem>
         <NavListItem>
