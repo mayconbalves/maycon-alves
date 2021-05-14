@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Container = styled.div`
   margin: 60px auto 0;
   width: 65%;
+
+  @media (max-width: 480px) {
+    width: 85%;
+  }
 `
 
 export const Title = styled.h1`

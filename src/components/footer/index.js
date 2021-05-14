@@ -1,11 +1,12 @@
 import React from 'react'
-import { Container } from './styled'
+import * as S from './styled'
+import Social from 'components/social'
 
 const Footer = () => {
   return (
-    <Container>
-      <div>footer</div>
-    </Container>
+    <S.Footer>
+      <Social />
+    </S.Footer>
   )
 }
 
