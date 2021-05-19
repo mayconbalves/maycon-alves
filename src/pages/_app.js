@@ -36,7 +36,7 @@ function App({ Component, pageProps }) {
         <meta property="og:site_name" content="Maycon Alves" />
         <meta
           name="google-site-verification"
-          content="MwxDA61c262skoWmSLcgotXrjzB2MZgheKU2pXS0OoQ"
+          content="wvyelTEymFd6wrEuf2jWVEX3Icbw1mTrEoBm4c9FkZ8"
         />
       </Head>
       <GlobalStyles />
