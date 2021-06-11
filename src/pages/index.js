@@ -30,7 +30,7 @@ const home = () => {
             <StrongStyled>Javascript</StrongStyled>. Por todas as empresas que
             passei passei sempre usei <StrongStyled>React</StrongStyled> com{' '}
             <StrongStyled>Redux</StrongStyled> e desde de 2018 comecei adotar o
-            uso de <StrongStyled>styles-components</StrongStyled>.
+            uso de <StrongStyled>styled-components</StrongStyled>.
           </Description>
           <Description>
             Gosto muito de escrever artigos no{' '}
